@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.block{
+    height: 100px;
+    width: 100px;
+    background-color: dimgray;
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container{
+    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+body{
+    background-color: white;
+}
